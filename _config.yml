@@ -18,6 +18,7 @@ profile_img:
 profile: 
 social:
   github: "https://github.com/leomiassi"
+  instragram: "https://instagram.com/leomiassi"
 
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
