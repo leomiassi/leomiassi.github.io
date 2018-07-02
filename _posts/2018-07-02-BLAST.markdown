@@ -4,7 +4,7 @@ title: Tutorial BLAST linux
 date: 2018-07-02
 categories:
     - Tutorial
-    - Bioinfomatica
+    - Bioinfomática
 image: /Images/dna_BLAST.jpg
 image-sm:
 ---
