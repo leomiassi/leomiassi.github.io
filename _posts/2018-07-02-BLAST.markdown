@@ -40,7 +40,8 @@ programa. Essa primeira parte é feita usando o makeblastdb (make blast database
 
 
    A flag -parse_seqids é usada para manter os identificadores de sequência original.
-Caso contrário, o makeblastdb irá gerar seus próprios identificadores. 
+Caso contrário, o makeblastdb irá gerar seus próprios identificadores. O makeblastdb
+irá gerar 6 arquivos: .nhr, .nin, .nog, .nsd, .nsi e .nsq.
 
    <h4>Família Blast</h4>
    Com a *database* pronta, o próximo passo é escolher um dos programas do pacote 
@@ -66,8 +67,9 @@ para se obter um resultado preciso.
 
    <h4>Exemplo de um alinhamento:</h4>
      
-     # blastn -evalue 1e-5 -query arquivo.fasta -db db.fasta -outfmt 6 -out result.txt
-
+     # blastn -evalue 1e-5 -query entrada.fasta -db arquivo.fasta -outfmt 6 -out result.txt
+     entrada.fasta = arquivo de entrar (query)
+     arquivo.fasta = arquivo que foi usado no makeblastdb (subject) 
 
 ![](/Images/output_BLAST.jpg) *Exemplo usando o parâmetro -outfmt 6*
 
