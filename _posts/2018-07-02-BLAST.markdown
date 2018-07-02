@@ -43,8 +43,8 @@ programa. Esse primeira parte é feita usando o makeblastdb (make blast database
 Caso contrário, o makeblastdb irá gerar seus próprios identificadores. 
 
    <h4>Família Blast</h4>
-       Com a database pronta, o próximo passo é escolher um dos programas do pacote f
-amília BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pesquisa. 
+       Com a database pronta, o próximo passo é escolher um dos programas do pacote 
+família BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pesquisa. 
        São eles:
    <ul>
      <li>blastn: Usado para alinhamento entre sequências de nucleotídeos.</li>
@@ -56,13 +56,13 @@ amília BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pes
 
    <h4>e-value</h4>
        Tendo em mente qual programa da família BLAST, só falta saber dosar esse 
-ultimo parâmetro.
-    O parâmetro estatístico de grau de significância do BLAST (e-value) inica o 
-número de alinhamentos que seriam esperados apresentando valores de score iguais ou 
-superiores que o encontrado por acaso, dado o tamanho do banco de dados. Dessa forma 
-é possível filtrar o alinhamento passando um valor de corte, no qual, quanto maior esse
-valor, menor a restrição. Normalmente são usados valores bem pequenos como 1e-5 para 
-se obter um resultado preciso.
+    ultimo parâmetro.
+       O parâmetro estatístico de grau de significância do BLAST (e-value) inica o 
+    número de alinhamentos que seriam esperados apresentando valores de score iguais ou 
+    superiores que o encontrado por acaso, dado o tamanho do banco de dados. Dessa forma 
+    é possível filtrar o alinhamento passando um valor de corte, no qual, quanto maior 
+    esse valor, menor a restrição. Normalmente são usados valores bem pequenos como 1e-5 
+    para se obter um resultado preciso.
 
    <h4>Exemplo de um alinhamento:</h4>
      
@@ -94,8 +94,8 @@ se obter um resultado preciso.
 
    <h4>Fonte:</h4>
    Recomento fortemente visitar os sites que utilizei como pesquisa, para aprofundar seus estudos.
+    ## [https://ncbi.github.io/magicblast/cook/blastdb.html](https://ncbi.github.io/magicblast/cook/blastdb.html) </li>
    <ul>
-    <li> ## [https://ncbi.github.io/magicblast/cook/blastdb.html](https://ncbi.github.io/magicblast/cook/blastdb.html) </li>
     <li> https://en.wikipedia.org/wiki/BLAST </li>
     <li> https://amos.esalq.usp.br/blog/?p=277</li>
     <li> www.genebio.ufba.br/?page_id=260</li>
