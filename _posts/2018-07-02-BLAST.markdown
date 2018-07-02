@@ -92,7 +92,9 @@ para se obter um resultado preciso.
 Exemplo no caso do *blastn*:
 
 		 # blastn -help 
-
+<p>
+	<br />
+</p>
 
    <h4>Fonte:</h4>
    Recomento fortemente visitar os sites que utilizei como pesquisa para aprofundar seus estudos:
