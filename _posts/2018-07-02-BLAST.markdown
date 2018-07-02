@@ -15,21 +15,21 @@ image-sm:
    O programa tem como objetivo encontrar regiões de similaridade entre uma 
 sequência (seja um nucleotídio ou uma proteina) com uma sequência base (database), 
 que normalmente possui uma quantidade absurda de informação. As regiões retornadas 
-das busca podem ser filtradas a partir de um parâmetro estatístico de grau de 
+das buscas podem ser filtradas a partir de um parâmetro estatístico de grau de 
 significância.
     O site do NCBI disponibiliza essa ferramenta online, porém em situações em que 
 é necessária uma utilização frequênte, o uso  pode acabar se tornando cansativo. 
 Graças aos usuários de GNU/linux é possível ter uma ferramenta local via terminal e 
 de não necessidade de internet, uma vez que você tenha as sequências no seu computador.
     
-   Para instalar o Blast no seu GNU/lknux basta digitar o comando:
+   Para instalar o Blast no seu GNU/linux basta digitar o comando:
 	
 	# sudo apt-get install ncbi-blast+
 
-   A palavra Query é usada para a sequência a ser inserida, enquanto que a palabra 
-Subject representa a sequência base com o qual a query irá ser comparada.
-    Para efetuar um alinhamento, primeiro temos que construir um "BLAST database". 
-Que nada mais é do que adaptar o arquivo base.fa ou .fasta para os parâmetros do 
+   A palavra *Query* é usada para a sequência a ser inserida, enquanto que a palavra 
+*Subject* representa a sequência base com o qual a *query* irá ser comparada.
+    Para efetuar um alinhamento, primeiro temos que construir um *BLAST database*. 
+Que nada mais é do que adaptar o arquivo *base.fa* ou *.fasta* para os parâmetros do 
 programa. Essa primeira parte é feita usando o makeblastdb (make blast database):
 
 
@@ -43,7 +43,7 @@ programa. Essa primeira parte é feita usando o makeblastdb (make blast database
 Caso contrário, o makeblastdb irá gerar seus próprios identificadores. 
 
    <h4>Família Blast</h4>
-   Com a database pronta, o próximo passo é escolher um dos programas do pacote 
+   Com a *database* pronta, o próximo passo é escolher um dos programas do pacote 
 família BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pesquisa. 
    São eles:
    <ul>
@@ -57,7 +57,7 @@ família BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pe
    <h4>e-value</h4>
    Tendo em mente qual programa da família BLAST usar, só falta saber dosar esse 
 ultimo parâmetro.
-   O parâmetro estatístico de grau de significância do BLAST (e-value) inica o 
+   O parâmetro estatístico de grau de significância do BLAST (*e-value*) inica o 
 número de alinhamentos que seriam esperados apresentando valores de score iguais ou 
 superiores que o encontrado por acaso, dado o tamanho do banco de dados. Dessa forma 
 é possível filtrar o alinhamento passando um valor de corte, no qual, quanto maior 
@@ -70,6 +70,7 @@ para se obter um resultado preciso.
 
 
 ![](/Images/output_BLAST.jpg) *Exemplo usando o parâmetro -outfmt 6*
+
 
    O parâmetro "-outfmt 6" proporciona um resultado com os dados tabulados:
    <ol>
@@ -87,9 +88,10 @@ para se obter um resultado preciso.
     <li> Score.</li>
    </ol>
 
-   Para mais informações de utilização de cada programa da família Blast, basta usar o comando "-help".
-	
-	# blastn -help 
+   Para mais informações da utilização de cada programa da família BLAST, basta usar o comando "-help".
+Exemplo no caso do *blastn*:
+
+ 	# blastn -help 
 
    <h4>Fonte:</h4>
    Recomento fortemente visitar os sites que utilizei como pesquisa, para aprofundar seus estudos.
