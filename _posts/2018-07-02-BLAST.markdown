@@ -47,11 +47,11 @@ Caso contrário, o makeblastdb irá gerar seus próprios identificadores.
 família BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pesquisa. 
    São eles:
    <ul>
-     	<li>blastn: Usado para alinhamento entre sequências de nucleotídeos.</li>
-     	<li>blastp: Usado para alinhamento entre sequências de proteinas.</li>
-     	<li>blastx: Usado para alinhamento de sequências de nucleotideos contra sequências de proteinas.</li>
-     	<li>tblastx: Usado para encontrar relações muito distantes entre as sequências de nucleotídeos.</li>
-     	<li>tblasn: Usado para o alinhamento de uma proteina contra sequências de nucleotídeos.</li> 
+     <li>blastn: Usado para alinhamento entre sequências de nucleotídeos.</li>
+     <li>blastp: Usado para alinhamento entre sequências de proteinas.</li>
+     <li>blastx: Usado para alinhamento de sequências de nucleotideos contra sequências de proteinas.</li>
+     <li>tblastx: Usado para encontrar relações muito distantes entre as sequências de nucleotídeos.</li>
+     <li>tblasn: Usado para o alinhamento de uma proteina contra sequências de nucleotídeos.</li> 
    </ul>
 
    <h4>e-value</h4>
@@ -73,19 +73,19 @@ para se obter um resultado preciso.
 
    O parâmetro "-outfmt 6" proporciona um resultado com os dados tabulados:
    <ol>
-	<li> Identificador da sequencia query.</li>
-	<li> Identificador da sequencia subject.</li>
-	<li> % de identidade do alinhamento reportado.</li>
-	<li> Comprimento do alinhamento.</li>
-	<li> Numero de mismatchs.</li>
-	<li> Numero de lacunas abertas (Gaps).</li>
-	<li> Posição do começo do alinhamento na sequencia query.</li>
-	<li> Posição de fim de alinhamento na sequencia query.</li>
-	<li> Posição do começo do alinhamento na sequencia subject.</li>
-	<li> Posição de fim de alinhamento da sequencia subject.</li>
-	<li> E-valor.</li>
-	<li> Score.</li>
-    </ol>
+    <li> Identificador da sequencia query.</li>
+    <li> Identificador da sequencia subject.</li>
+    <li> % de identidade do alinhamento reportado.</li>
+    <li> Comprimento do alinhamento.</li>
+    <li> Numero de mismatchs.</li>
+    <li> Numero de lacunas abertas (Gaps).</li>
+    <li> Posição do começo do alinhamento na sequencia query.</li>
+    <li> Posição de fim de alinhamento na sequencia query.</li>
+    <li> Posição do começo do alinhamento na sequencia subject.</li>
+    <li> Posição de fim de alinhamento da sequencia subject.</li>
+    <li> E-valor.</li>
+    <li> Score.</li>
+   </ol>
 
    Para mais informações de utilização de cada programa da família Blast, basta usar o comando "-help".
 	
@@ -93,10 +93,9 @@ para se obter um resultado preciso.
 
    <h4>Fonte:</h4>
    Recomento fortemente visitar os sites que utilizei como pesquisa, para aprofundar seus estudos.
-   
-   => https://ncbi.github.io/magicblast/cook/blastdb.html
-   => https://en.wikipedia.org/wiki/BLAST 
-   => https://amos.esalq.usp.br/blog/?p=277
-   => https://www.genebio.ufba.br/?page_id=260
-   => https://blast.ncbi.nlm.nih.gov/Blast.cgi 
+=> https://ncbi.github.io/magicblast/cook/blastdb.html
+=> https://en.wikipedia.org/wiki/BLAST 
+=> https://amos.esalq.usp.br/blog/?p=277
+=> https://www.genebio.ufba.br/?page_id=260
+=> https://blast.ncbi.nlm.nih.gov/Blast.cgi 
 
