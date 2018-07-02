@@ -91,9 +91,8 @@ para se obter um resultado preciso.
    Para mais informações da utilização de cada programa da família BLAST, basta usar o comando "-help".
 Exemplo no caso do *blastn*:
 
- 	# blastn -help 
-<p>
-</p>
+		 # blastn -help 
+
 
    <h4>Fonte:</h4>
    Recomento fortemente visitar os sites que utilizei como pesquisa para aprofundar seus estudos:
