@@ -44,7 +44,7 @@ Caso contrário, o makeblastdb irá gerar seus próprios identificadores.
 
    <h4>Família Blast</h4>
        Com a database pronta, o próximo passo é escolher um dos programas do pacote 
-família BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pesquisa. 
+   família BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pesquisa. 
        São eles:
    <ul>
      	<li>blastn: Usado para alinhamento entre sequências de nucleotídeos.</li>
@@ -95,10 +95,10 @@ família BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pe
    <h4>Fonte:</h4>
    Recomento fortemente visitar os sites que utilizei como pesquisa, para aprofundar seus estudos.
    <ul>
-    <li> https://ncbi.github.io/magicblast/cook/blastdb.html </li>
-    <li> https://en.wikipedia.org/wiki/BLAST </li>
-    <li> https://amos.esalq.usp.br/blog/?p=277</li>
-    <li> www.genebio.ufba.br/?page_id=260</li>
-    <li> https://blast.ncbi.nlm.nih.gov/Blast.cgi</li>
+	<li> </li> https://ncbi.github.io/magicblast/cook/blastdb.html
+	<li> </li> https://en.wikipedia.org/wiki/BLAST 
+	<li> </li> https://amos.esalq.usp.br/blog/?p=277
+        <li> </li> www.genebio.ufba.br/?page_id=260
+        <li> </li> https://blast.ncbi.nlm.nih.gov/Blast.cgi 
    </ul>
 
