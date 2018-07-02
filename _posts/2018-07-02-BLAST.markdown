@@ -93,7 +93,6 @@ Exemplo no caso do *blastn*:
 
  	# blastn -help 
 <p>
-	</br>
 </p>
 
    <h4>Fonte:</h4>
