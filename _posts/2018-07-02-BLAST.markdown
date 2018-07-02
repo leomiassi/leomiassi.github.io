@@ -72,7 +72,7 @@ família BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pe
 ![](/Images/output_BLAST.jpg)
 *Exemplo usando o parâmetro -outfmt 6*
 
-   O parâmetro "-outfmt 6" proporciona que um resultado com os dados tabulados:
+   O parâmetro "-outfmt 6" proporciona um resultado com os dados tabulados:
    <ol>
 	<li> Identificador da sequencia query.</li>
 	<li> Identificador da sequencia subject.</li>
