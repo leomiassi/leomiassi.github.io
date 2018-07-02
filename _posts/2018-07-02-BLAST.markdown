@@ -30,7 +30,7 @@ de não necessidade de internet, uma vez que você tenha as sequências no seu c
 Subject representa a sequência base com o qual a query irá ser comparada.
     Para efetuar um alinhamento, primeiro temos que construir um "BLAST database". 
 Que nada mais é do que adaptar o arquivo base.fa ou .fasta para os parâmetros do 
-programa. Esse primeira parte é feita usando o makeblastdb (make blast database):
+programa. Essa primeira parte é feita usando o makeblastdb (make blast database):
 
 
 	# makeblastdb -in arquivo.fa -parse_seqids -dbtype nucl   (no caso de nucleotídio) 
@@ -55,22 +55,21 @@ Caso contrário, o makeblastdb irá gerar seus próprios identificadores.
    </ul>
 
    <h4>e-value</h4>
-       Tendo em mente qual programa da família BLAST, só falta saber dosar esse 
-    ultimo parâmetro.
-       O parâmetro estatístico de grau de significância do BLAST (e-value) inica o 
-    número de alinhamentos que seriam esperados apresentando valores de score iguais ou 
-    superiores que o encontrado por acaso, dado o tamanho do banco de dados. Dessa forma 
-    é possível filtrar o alinhamento passando um valor de corte, no qual, quanto maior 
-    esse valor, menor a restrição. Normalmente são usados valores bem pequenos como 1e-5 
-    para se obter um resultado preciso.
+   Tendo em mente qual programa da família BLAST, só falta saber dosar esse 
+ultimo parâmetro.
+   O parâmetro estatístico de grau de significância do BLAST (e-value) inica o 
+número de alinhamentos que seriam esperados apresentando valores de score iguais ou 
+superiores que o encontrado por acaso, dado o tamanho do banco de dados. Dessa forma 
+é possível filtrar o alinhamento passando um valor de corte, no qual, quanto maior 
+esse valor, menor a restrição. Normalmente são usados valores bem pequenos como 1e-5 
+para se obter um resultado preciso.
 
    <h4>Exemplo de um alinhamento:</h4>
      
      # blastn -evalue 1e-5 -query arquivo.fasta -db db.fasta -outfmt 6 -out result.txt
 
 
-![](/Images/output_BLAST.jpg)
-*Exemplo usando o parâmetro -outfmt 6*
+![](/Images/output_BLAST.jpg) *Exemplo usando o parâmetro -outfmt 6*
 
    O parâmetro "-outfmt 6" proporciona um resultado com os dados tabulados:
    <ol>
