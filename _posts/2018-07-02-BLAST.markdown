@@ -98,7 +98,7 @@ Caso contrário, o makeblastdb irá gerar seus próprios identificadores.
 	<li> </li> https://ncbi.github.io/magicblast/cook/blastdb.html
 	<li> </li> https://en.wikipedia.org/wiki/BLAST 
 	<li> </li> https://amos.esalq.usp.br/blog/?p=277
-        <li> </li> www.genebio.ufba.br/?page_id=260
+        <li> </li> https://www.genebio.ufba.br/?page_id=260
         <li> </li> https://blast.ncbi.nlm.nih.gov/Blast.cgi 
    </ul>
 
