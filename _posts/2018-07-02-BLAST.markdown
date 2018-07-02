@@ -13,7 +13,7 @@ image-sm:
 é uma ferramenta para alinhamento local de sequências biológicas.
 
     O programa tem como objetivo encontrar regiões de similaridade entre uma 
-sequência (seja um nucleotidio ou uma proteina) com uma sequência base (database), 
+sequência (seja um nucleotídio ou uma proteina) com uma sequência base (database), 
 que normalmente possui uma quantidade absurda de informação. As regiões retornadas 
 das busca podem ser filtradas a partir de um parâmetro estatístico de grau de 
 significância.
@@ -91,7 +91,7 @@ se obter um resultado preciso.
 	# blastn -help 
 
    <h4>Fonte:</h4>
-   Recomento fortemente vísitar os sites que utilizei como pesquisa, para aprofundar seus estudos.
+   Recomento fortemente visitar os sites que utilizei como pesquisa, para aprofundar seus estudos.
    <ul>
     <li> https://ncbi.github.io/magicblast/cook/blastdb.html</li>
     <li> https://en.wikipedia.org/wiki/BLAST </li>
