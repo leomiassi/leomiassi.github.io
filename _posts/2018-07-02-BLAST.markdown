@@ -47,11 +47,11 @@ Caso contrário, o makeblastdb irá gerar seus próprios identificadores.
 família BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pesquisa. 
        São eles:
    <ul>
-     <li>blastn: Usado para alinhamento entre sequências de nucleotídeos.</li>
-     <li>blastp: Usado para alinhamento entre sequências de proteinas.</li>
-     <li>blastx: Usado para alinhamento de sequências de nucleotideos contra sequências de proteinas.</li>
-     <li>tblastx: Usado para encontrar relações muito distantes entre as sequências de nucleotídeos.</li>
-     <li>tblasn: Usado para o alinhamento de uma proteina contra sequências de nucleotídeos.</li> 
+     	<li>blastn: Usado para alinhamento entre sequências de nucleotídeos.</li>
+     	<li>blastp: Usado para alinhamento entre sequências de proteinas.</li>
+     	<li>blastx: Usado para alinhamento de sequências de nucleotideos contra sequências de proteinas.</li>
+     	<li>tblastx: Usado para encontrar relações muito distantes entre as sequências de nucleotídeos.</li>
+     	<li>tblasn: Usado para o alinhamento de uma proteina contra sequências de nucleotídeos.</li> 
    </ul>
 
    <h4>e-value</h4>
