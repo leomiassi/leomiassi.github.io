@@ -94,9 +94,9 @@ para se obter um resultado preciso.
    <h4>Fonte:</h4>
    Recomento fortemente visitar os sites que utilizei como pesquisa, para aprofundar seus estudos.
    
-   	=> https://ncbi.github.io/magicblast/cook/blastdb.html
-	=> https://en.wikipedia.org/wiki/BLAST 
-	=> https://amos.esalq.usp.br/blog/?p=277
-        => https://www.genebio.ufba.br/?page_id=260
-        => https://blast.ncbi.nlm.nih.gov/Blast.cgi 
+   => https://ncbi.github.io/magicblast/cook/blastdb.html
+   => https://en.wikipedia.org/wiki/BLAST 
+   => https://amos.esalq.usp.br/blog/?p=277
+   => https://www.genebio.ufba.br/?page_id=260
+   => https://blast.ncbi.nlm.nih.gov/Blast.cgi 
 
