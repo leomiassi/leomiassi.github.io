@@ -93,10 +93,19 @@ para se obter um resultado preciso.
 
    <h4>Fonte:</h4>
    Recomento fortemente visitar os sites que utilizei como pesquisa, para aprofundar seus estudos.
+   
    <a HREF= "https://ncbi.github.io/magicblast/cook/blastdb.html" TARGET="_blank" >
 	ncbi.github.io/magicblast/cook/blastdb.html </a>
-=> https://en.wikipedia.org/wiki/BLAST 
-=> https://amos.esalq.usp.br/blog/?p=277
-=> https://www.genebio.ufba.br/?page_id=260
-=> https://blast.ncbi.nlm.nih.gov/Blast.cgi 
+	
+   <a HREF= "https://en.wikipedia.org/wiki/BLAST " TARGET="_blank">
+	en.wikipedia.org/wiki/BLAST </a>
+	
+   <a HREF= "https://amos.esalq.usp.br/blog/?p=277" TARGET="_blank">
+	amos.esalq.usp.br/blog/?p=277 </a>
+	
+   <a HREF= "https://www.genebio.ufba.br/?page_id=260" TARGET="_blank">
+	genebio.ufba.br/?page_id=260 </a>
+	
+   <a HREF= "https://blast.ncbi.nlm.nih.gov/Blast.cgi " TARGET="_blank">
+	blast.ncbi.nlm.nih.gov/Blast.cgi </a>
 
