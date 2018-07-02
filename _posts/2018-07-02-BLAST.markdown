@@ -9,10 +9,10 @@ image: /Images/dna_BLAST.jpg
 image-sm:
 ---
 
-   BLAST é a sigla em inglês para "Basic Local Aligment Search Tool", ou seja, 
+    BLAST é a sigla em inglês para "Basic Local Aligment Search Tool", ou seja, 
 é uma ferramenta para alinhamento local de sequências biológicas.
 
-   O programa tem como objetivo encontrar regiões de similaridade entre uma 
+    O programa tem como objetivo encontrar regiões de similaridade entre uma 
 sequência (seja um nucleotidio ou uma proteina) com uma sequência base (database), 
 que normalmente possui uma quantidade absurda de informação. As regiões retornadas 
 das busca podem ser filtradas a partir de um parâmetro estatístico de grau de 
@@ -22,20 +22,28 @@ significância.
 Graças aos usuários de GNU/linux é possível ter uma ferramenta local via terminal e 
 de não necessidade de internet, uma vez que você tenha as sequências no seu computador.
     
-   Para instalar o Blast no seu GNU/lknux basta digitar o comando:
+    Para instalar o Blast no seu GNU/lknux basta digitar o comando:
 	# sudo apt-get install ncbi-blast+
 
-   A palavra Query é usada para a sequência a ser inserida, enquanto que a palabra Subject representa a sequência base com o qual a query irá ser comparada.
-    Para efetuar um alinhamento, primeiro temos que construir um "BLAST database". Que nada mais é do que adaptar o arquivo base.fa ou .fasta para os parâmetros do programa. Esse primeira parte é feita usando o makeblastdb (make blast database):
+    A palavra Query é usada para a sequência a ser inserida, enquanto que a palabra 
+Subject representa a sequência base com o qual a query irá ser comparada.
+    Para efetuar um alinhamento, primeiro temos que construir um "BLAST database". 
+Que nada mais é do que adaptar o arquivo base.fa ou .fasta para os parâmetros do 
+programa. Esse primeira parte é feita usando o makeblastdb (make blast database):
+
 
 	# makeblastdb -in arquivo.fa -parse_seqids -dbtype nucl   (no caso de nucleotídio) 
 	ou
 	# makeblastdb -in arquivo.fa -parse_seqids -dbtype prot   (no caso de proteina) 
 
-   A flag -parse_seqids é usada para manter os identificadores de sequência origial. Caso contrário, o makeblastdb irá gerar seus próprios identificadores. 
+
+
+    A flag -parse_seqids é usada para manter os identificadores de sequência origial.
+    Caso contrário, o makeblastdb irá gerar seus próprios identificadores. 
 
    <h4>Família Blast</h4>
-   Com a database pronta, o próximo passo é escolher um dos programas do pacote família BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pesquisa. 
+       Com a database pronta, o próximo passo é escolher um dos programas do pacote f
+amília BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pesquisa. 
        São eles:
    <ul>
      <li>blastn: Usado para alinhamento entre sequências de nucleotídeos.</li>
@@ -46,12 +54,19 @@ de não necessidade de internet, uma vez que você tenha as sequências no seu c
    </ul>
 
    <h4>e-value</h4>
-    Tendo em mente qual programa da família BLAST, só falta saber dosar esse ultimo parâmetro.
-    O parâmetro estatístico de grau de significância do BLAST (e-value) inica o número de alinhamentos que seriam esperados apresentando valores de score iguais ou superiores que o encontrado por acaso, dado o tamanho do banco de dados. Dessa forma é possível filtrar o alinhamento passando um valor de corte, no qual, quanto maior esse valor, menor a restrição. Normalmente são usados valores bem pequenos como 1e-5 para se obter um resultado preciso.
+       Tendo em mente qual programa da família BLAST, só falta saber dosar esse 
+ultimo parâmetro.
+    O parâmetro estatístico de grau de significância do BLAST (e-value) inica o 
+número de alinhamentos que seriam esperados apresentando valores de score iguais ou 
+superiores que o encontrado por acaso, dado o tamanho do banco de dados. Dessa forma 
+é possível filtrar o alinhamento passando um valor de corte, no qual, quanto maior esse
+valor, menor a restrição. Normalmente são usados valores bem pequenos como 1e-5 para 
+se obter um resultado preciso.
 
    <h4>Exemplo de um alinhamento:</h4>
      # blastn -evalue 1e-5 -query arquivo.fasta -db db.fasta -outfmt 6 -out result.txt
-	
+
+
 ![](/Images/output_BLAST.jpg)
 *Exemplo usando o parâmetro -outfmt 6*
 
