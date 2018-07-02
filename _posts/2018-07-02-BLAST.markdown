@@ -58,7 +58,7 @@ família BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pe
    <h4>e-value</h4>
    Tendo em mente qual programa da família BLAST usar, só falta saber dosar esse 
 ultimo parâmetro.
-   O parâmetro estatístico de grau de significância do BLAST (e-value) inica o 
+   O parâmetro estatístico de grau de significância do BLAST (e-value) indica o 
 número de alinhamentos que seriam esperados apresentando valores de score iguais ou 
 superiores que o encontrado por acaso, dado o tamanho do banco de dados. Dessa forma 
 é possível filtrar o alinhamento passando um valor de corte, no qual, quanto maior 
