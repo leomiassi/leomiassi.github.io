@@ -94,8 +94,8 @@ família BLAST (conjunto de programas do BLAST) que mais se enquadrada na sua pe
 
    <h4>Fonte:</h4>
    Recomento fortemente visitar os sites que utilizei como pesquisa, para aprofundar seus estudos.
-    ## [https://ncbi.github.io/magicblast/cook/blastdb.html](https://ncbi.github.io/magicblast/cook/blastdb.html) </li>
    <ul>
+    <li> https://ncbi.github.io/magicblast/cook/blastdb.html </li>
     <li> https://en.wikipedia.org/wiki/BLAST </li>
     <li> https://amos.esalq.usp.br/blog/?p=277</li>
     <li> www.genebio.ufba.br/?page_id=260</li>
