@@ -14,8 +14,8 @@ default_img:
 
 # Profile settings
 name: Leonardo Miassi Netto
-profile_img: 
-profile: 
+profile_img: "/Images/lenha.jpg"
+profile: Computer Science student at University of São Paulo.
 social:
   github: "https://github.com/leomiassi"
   instagram: "https://instagram.com/leomiassi"
