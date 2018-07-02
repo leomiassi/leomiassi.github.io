@@ -5,7 +5,7 @@ date: 2018-07-02
 categories:
     - Tutorial
     - Bioinfomatica
-image:
+image: /Images/dna_BLAST.jpg
 image-sm:
 ---
 
