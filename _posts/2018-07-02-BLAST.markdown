@@ -68,8 +68,11 @@ para se obter um resultado preciso.
    <h4>Exemplo de um alinhamento:</h4>
      
      # blastn -evalue 1e-5 -query entrada.fasta -db arquivo.fasta -outfmt 6 -out result.txt
-   entrada.fasta = arquivo de entrar *(query)*
-   arquivo.fasta = arquivo que foi usado no makeblastdb *(subject)* 
+ <p>
+	<br />
+   entrada.fasta = arquivo de entrar (query) <br />
+   arquivo.fasta = arquivo que foi usado no makeblastdb (subject) <br />
+</p>
 
 ![](/Images/output_BLAST.jpg) *Exemplo usando o parâmetro -outfmt 6*
 
