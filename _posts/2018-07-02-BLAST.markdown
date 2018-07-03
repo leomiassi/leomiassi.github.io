@@ -69,7 +69,6 @@ para se obter um resultado preciso.
      
      # blastn -evalue 1e-5 -query entrada.fasta -db arquivo.fasta -outfmt 6 -out result.txt
  <p>
-	<br />
    entrada.fasta = arquivo de entrar (query) <br />
    arquivo.fasta = arquivo que foi usado no makeblastdb (subject) <br />
 </p>
