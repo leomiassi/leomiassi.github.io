@@ -19,6 +19,7 @@ profile: Computer Science student at University of São Paulo.
 social:
   github: "https://github.com/leomiassi"
   instagram: "https://instagram.com/leomiassi"
+  envelope: "leonardo.netto@usp.br"
 
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
